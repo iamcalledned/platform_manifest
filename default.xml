@@ -7,7 +7,7 @@
   <remote  name="ned"
            fetch="git://github.com/iamcalledned/" />
 
-  <default revision="refs/tags/android-4.2_r1"
+  <default revision="master"
            remote="aosp"
            sync-j="4" />
 
