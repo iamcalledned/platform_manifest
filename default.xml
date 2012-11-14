@@ -6,14 +6,14 @@
            review="https://android-review.googlesource.com/" />
            
   <remote  name="ned"
-           fetch="git://github.com/iamcalledned/"
+           fetch="https://github.com/iamcalledned/"
            revision="master" />
 
   <default revision="master"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="ned" >
+  <project path="build" name="platform_build" remote="ned">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
