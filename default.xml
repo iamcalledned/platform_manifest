@@ -2,9 +2,8 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
-           
+           fetch="https://android.googlesource.com/" />
+                     
   <remote  name="ned"
            fetch="git://github.com/iamcalledned/" />
 
