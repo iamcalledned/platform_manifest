@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
+ <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-                     
-  <remote  name="ned"
-           fetch="git://github.com/iamcalledned/" />
-
+  <remote name="pete"
+           fetch="git://github.com/peteralfonso/" /> 
   <default revision="refs/tags/android-4.2_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="ned" revision="master">
+  <project path="build" name="platform_build" remote="pete" revision="jb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
   
 
 </manifest>
