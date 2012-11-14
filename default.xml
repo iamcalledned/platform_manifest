@@ -347,6 +347,4 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor" remote="ned" name="vendor" />
 
-</manifest> 
-
 </manifest>
