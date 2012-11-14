@@ -6,8 +6,7 @@
            review="https://android-review.googlesource.com/" />
            
   <remote  name="ned"
-           fetch="git://github.com/iamcalledned/"
-           revision="master" />
+           fetch="git://github.com/iamcalledned/" />
 
   <default revision="master"
            remote="aosp"
