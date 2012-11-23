@@ -261,7 +261,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Superuser" name="Superuser" remote="su" />
+  <project path="packages/apps/Superuser" name="Superuser" remote="ned" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
@@ -358,6 +358,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
+  <project path="system/extras/su" name="su-binary" remote="ned" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
