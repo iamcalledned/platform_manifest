@@ -358,7 +358,6 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
-  <project path="system/su" name="su-binary" remote="ned" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
