@@ -15,7 +15,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" remote="ned" name="platform_build" >
+  <project path="build" remote="ned" name="platform_build" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
    <project path="abi/cpp" name="platform/abi/cpp" />
@@ -42,7 +42,7 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
-  <project path="device/samsung/manta" name="device_manta" groups="device" remote="ned" />
+  <project path="device/samsung/manta" name="device_manta" groups="device" remote="ned" revision="master" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device" />
@@ -209,7 +209,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="ned"/>
+  <project path="frameworks/base" name="platform_frameworks_base" remote="ned" revision="master"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -365,6 +365,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  <project path="vendor" remote="ned" name="vendor" />
+  <project path="vendor" remote="ned" name="vendor" revision="master" />
 
 </manifest>
